@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.testscenarios.ChildAndMotherRegistration">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="test_childAndMotherRegistration"/>
+        </methods>
+      </class> <!-- com.testscenarios.ChildAndMotherRegistration -->
+      <class name="com.testscenarios.syncButtonFunctionality">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.testscenarios.syncButtonFunctionality -->
+      <class name="com.testscenarios.FollowUpFormSubmit">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.testscenarios.FollowUpFormSubmit -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
